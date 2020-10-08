@@ -8,11 +8,15 @@ a {
     color: white;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
 .navbar {
     background-color: #232323;
     color: white;
     height: 100px;
-    border-bottom: 4px orangered solid;
+    border-bottom: 4px blue solid;
 }
 
 .container {
@@ -42,9 +46,37 @@ a {
 }
 
 .navbar h1 span {
-    color: orangered;
+    color: blue;
 }
 
 .current {
-    color: orangered;
+    color: blue;
+}
+
+.banner {
+    height: 400px;
+    background-color: #adadad;
+    background-image: url(imgs/galaxia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+.banner h1 {
+    padding: 100px;
+    margin: 0;
+    font-size: 48px;
+    color: rgb(176, 176, 220);
+}
+
+.banner p{
+    margin-left: 100px;
+    margin-top: -50px;
+    padding: -30px;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
